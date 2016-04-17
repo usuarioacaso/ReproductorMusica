@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2YG-0D-Rai">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller-->
+        <scene sceneID="hd1-FL-zWx">
+            <objects>
+                <viewController id="lQk-ek-Q5B" customClass="FirstViewController" customModule="ReproductorMusica" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h8W-xZ-SK5"/>
+                        <viewControllerLayoutGuide type="bottom" id="bKR-eW-lRM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qlk-gy-C1m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzZ-Is-mJJ">
+                                <rect key="frame" x="28" y="226" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="lQk-ek-Q5B" id="NbR-Qz-cOQ"/>
+                                    <outlet property="delegate" destination="lQk-ek-Q5B" id="nzP-1i-laf"/>
+                                </connections>
+                            </pickerView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5aO-cV-xWl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Canciones" id="SOd-7Q-VV4">
+                                        <barButtonItem key="backBarButtonItem" title="Seleccionar" id="RcY-EE-R8l"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Tocar" id="w28-Q3-IP8">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="Djz-w2-To3"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5aO-cV-xWl" firstAttribute="centerX" secondItem="FzZ-Is-mJJ" secondAttribute="centerX" id="5BH-60-CkY"/>
+                            <constraint firstItem="5aO-cV-xWl" firstAttribute="top" secondItem="h8W-xZ-SK5" secondAttribute="bottom" id="hlD-77-5cM"/>
+                            <constraint firstItem="FzZ-Is-mJJ" firstAttribute="centerX" secondItem="qlk-gy-C1m" secondAttribute="centerX" id="np9-Kk-aTj"/>
+                            <constraint firstItem="5aO-cV-xWl" firstAttribute="leading" secondItem="qlk-gy-C1m" secondAttribute="leading" id="tMo-FW-sek"/>
+                            <constraint firstItem="FzZ-Is-mJJ" firstAttribute="centerY" secondItem="qlk-gy-C1m" secondAttribute="centerY" id="xm6-IJ-bPc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CsH-fa-b6Z">
+                        <barButtonItem key="backBarButtonItem" title="Seleccionar" id="BIP-Gd-8Yo"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="picker" destination="FzZ-Is-mJJ" id="qqx-ks-U0B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tis-54-1C9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="767.5" y="336.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReproductorMusica" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCx-V0-uv1">
+                                <rect key="frame" x="67" y="319" width="39" height="30"/>
+                                <state key="normal" title="Tocar"/>
+                                <connections>
+                                    <action selector="play" destination="BYZ-38-t0r" eventType="touchUpInside" id="sQt-tI-3uB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCT-fU-i9V">
+                                <rect key="frame" x="164" y="319" width="47" height="30"/>
+                                <state key="normal" title="Pausar"/>
+                                <connections>
+                                    <action selector="pause" destination="BYZ-38-t0r" eventType="touchUpInside" id="nF2-yk-0tb"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="tL7-id-SyN">
+                                <rect key="frame" x="65" y="416" width="244" height="31"/>
+                                <connections>
+                                    <action selector="sliderValueChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="fLN-qw-EpA"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHS-dk-ihv">
+                                <rect key="frame" x="67" y="276" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ph6-7K-Mji">
+                                <rect key="frame" x="252" y="319" width="55" height="30"/>
+                                <state key="normal" title="Detener"/>
+                                <connections>
+                                    <action selector="stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9N-OS-pGi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Abracadabra.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iVi-E0-fGa">
+                                <rect key="frame" x="69" y="72" width="237" height="204"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="204" id="PXs-F9-1OP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BCx-V0-uv1" firstAttribute="leading" secondItem="tL7-id-SyN" secondAttribute="leading" id="3gU-RH-VqO"/>
+                            <constraint firstItem="Ph6-7K-Mji" firstAttribute="leading" secondItem="lCT-fU-i9V" secondAttribute="trailing" constant="41" id="4Rc-9a-mZL"/>
+                            <constraint firstItem="lCT-fU-i9V" firstAttribute="baseline" secondItem="Ph6-7K-Mji" secondAttribute="baseline" id="IVl-fw-ruT"/>
+                            <constraint firstItem="iVi-E0-fGa" firstAttribute="centerX" secondItem="tL7-id-SyN" secondAttribute="centerX" id="N3h-JQ-xY2"/>
+                            <constraint firstItem="tL7-id-SyN" firstAttribute="top" secondItem="BCx-V0-uv1" secondAttribute="bottom" constant="67" id="VvQ-FE-ZeY"/>
+                            <constraint firstItem="Ph6-7K-Mji" firstAttribute="top" secondItem="iVi-E0-fGa" secondAttribute="bottom" constant="43" id="XR3-e6-L3F"/>
+                            <constraint firstItem="iVi-E0-fGa" firstAttribute="centerX" secondItem="lCT-fU-i9V" secondAttribute="centerX" id="ZaO-7D-Qwl"/>
+                            <constraint firstItem="iVi-E0-fGa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="g3g-7L-NbP"/>
+                            <constraint firstItem="BCx-V0-uv1" firstAttribute="baseline" secondItem="lCT-fU-i9V" secondAttribute="baseline" id="jd1-dM-s80"/>
+                            <constraint firstItem="iVi-E0-fGa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="53" id="rGt-XV-ZV7"/>
+                            <constraint firstItem="iVi-E0-fGa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uEy-41-c7h"/>
+                            <constraint firstItem="Ph6-7K-Mji" firstAttribute="trailing" secondItem="tL7-id-SyN" secondAttribute="trailing" id="x3h-Oz-MlA"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="cover" destination="iVi-E0-fGa" id="JcG-qu-mFW"/>
+                        <outlet property="titulo" destination="bHS-dk-ihv" id="hki-g5-Inq"/>
+                        <outlet property="volumen" destination="tL7-id-SyN" id="jrS-DK-Ezc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1226.5" y="336.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Kb4-gz-V4l">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2YG-0D-Rai" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hEZ-5P-YfF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lQk-ek-Q5B" kind="relationship" relationship="rootViewController" id="Di0-X2-pt1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gsc-Fu-EcD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300.5" y="336.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Abracadabra.jpg" width="220" height="224"/>
+    </resources>
+</document>

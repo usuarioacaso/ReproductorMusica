@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A991AF101CC31F2100E23C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991AF0F1CC31F2100E23C2A /* AppDelegate.swift */; };
+		A991AF121CC31F2100E23C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991AF111CC31F2100E23C2A /* ViewController.swift */; };
+		A991AF151CC31F2100E23C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A991AF131CC31F2100E23C2A /* Main.storyboard */; };
+		A991AF171CC31F2100E23C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A991AF161CC31F2100E23C2A /* Assets.xcassets */; };
+		A991AF1A1CC31F2100E23C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A991AF181CC31F2100E23C2A /* LaunchScreen.storyboard */; };
+		A991AF251CC31F2100E23C2A /* ReproductorMusicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991AF241CC31F2100E23C2A /* ReproductorMusicaTests.swift */; };
+		A991AF301CC31F2100E23C2A /* ReproductorMusicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991AF2F1CC31F2100E23C2A /* ReproductorMusicaUITests.swift */; };
+		A991AF3E1CC31FD200E23C2A /* Abracadabra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A991AF3D1CC31FD200E23C2A /* Abracadabra.mp3 */; };
+		A991AF401CC31FE400E23C2A /* Czardas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A991AF3F1CC31FE400E23C2A /* Czardas.mp3 */; };
+		A991AF421CC31FFB00E23C2A /* I Don't Want To Spoil The Party.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A991AF411CC31FFB00E23C2A /* I Don't Want To Spoil The Party.mp3 */; };
+		A991AF441CC3201000E23C2A /* My Sweet Lord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A991AF431CC3201000E23C2A /* My Sweet Lord.mp3 */; };
+		A991AF461CC3202B00E23C2A /* Something stupid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A991AF451CC3202B00E23C2A /* Something stupid.mp3 */; };
+		A991AF481CC3203C00E23C2A /* Abracadabra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A991AF471CC3203C00E23C2A /* Abracadabra.jpg */; };
+		A991AF4A1CC3204D00E23C2A /* BeatlesForSale_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A991AF491CC3204D00E23C2A /* BeatlesForSale_1.jpg */; };
+		A991AF4C1CC3206600E23C2A /* Czardas.Portada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A991AF4B1CC3206600E23C2A /* Czardas.Portada.jpg */; };
+		A991AF4E1CC3208100E23C2A /* Frank&Nancy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A991AF4D1CC3208100E23C2A /* Frank&Nancy.jpg */; };
+		A991AF501CC3209600E23C2A /* My_Sweet_Lord.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A991AF4F1CC3209600E23C2A /* My_Sweet_Lord.jpg */; };
+		A991AF531CC344E200E23C2A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991AF521CC344E200E23C2A /* FirstViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A991AF211CC31F2100E23C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A991AF041CC31F2100E23C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A991AF0B1CC31F2100E23C2A;
+			remoteInfo = ReproductorMusica;
+		};
+		A991AF2C1CC31F2100E23C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A991AF041CC31F2100E23C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A991AF0B1CC31F2100E23C2A;
+			remoteInfo = ReproductorMusica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A991AF0C1CC31F2100E23C2A /* ReproductorMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A991AF0F1CC31F2100E23C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A991AF111CC31F2100E23C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A991AF141CC31F2100E23C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A991AF161CC31F2100E23C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A991AF191CC31F2100E23C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A991AF1B1CC31F2100E23C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A991AF201CC31F2100E23C2A /* ReproductorMusicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproductorMusicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A991AF241CC31F2100E23C2A /* ReproductorMusicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductorMusicaTests.swift; sourceTree = "<group>"; };
+		A991AF261CC31F2100E23C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A991AF2B1CC31F2100E23C2A /* ReproductorMusicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproductorMusicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A991AF2F1CC31F2100E23C2A /* ReproductorMusicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductorMusicaUITests.swift; sourceTree = "<group>"; };
+		A991AF311CC31F2100E23C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A991AF3D1CC31FD200E23C2A /* Abracadabra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Abracadabra.mp3; sourceTree = "<group>"; };
+		A991AF3F1CC31FE400E23C2A /* Czardas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Czardas.mp3; sourceTree = "<group>"; };
+		A991AF411CC31FFB00E23C2A /* I Don't Want To Spoil The Party.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Don't Want To Spoil The Party.mp3"; sourceTree = "<group>"; };
+		A991AF431CC3201000E23C2A /* My Sweet Lord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My Sweet Lord.mp3"; sourceTree = "<group>"; };
+		A991AF451CC3202B00E23C2A /* Something stupid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Something stupid.mp3"; sourceTree = "<group>"; };
+		A991AF471CC3203C00E23C2A /* Abracadabra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abracadabra.jpg; sourceTree = "<group>"; };
+		A991AF491CC3204D00E23C2A /* BeatlesForSale_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeatlesForSale_1.jpg; sourceTree = "<group>"; };
+		A991AF4B1CC3206600E23C2A /* Czardas.Portada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Czardas.Portada.jpg; sourceTree = "<group>"; };
+		A991AF4D1CC3208100E23C2A /* Frank&Nancy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frank&Nancy.jpg"; sourceTree = "<group>"; };
+		A991AF4F1CC3209600E23C2A /* My_Sweet_Lord.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = My_Sweet_Lord.jpg; sourceTree = "<group>"; };
+		A991AF521CC344E200E23C2A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A991AF091CC31F2100E23C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A991AF1D1CC31F2100E23C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A991AF281CC31F2100E23C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A991AF031CC31F2100E23C2A = {
+			isa = PBXGroup;
+			children = (
+				A991AF0E1CC31F2100E23C2A /* ReproductorMusica */,
+				A991AF231CC31F2100E23C2A /* ReproductorMusicaTests */,
+				A991AF2E1CC31F2100E23C2A /* ReproductorMusicaUITests */,
+				A991AF0D1CC31F2100E23C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A991AF0D1CC31F2100E23C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A991AF0C1CC31F2100E23C2A /* ReproductorMusica.app */,
+				A991AF201CC31F2100E23C2A /* ReproductorMusicaTests.xctest */,
+				A991AF2B1CC31F2100E23C2A /* ReproductorMusicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A991AF0E1CC31F2100E23C2A /* ReproductorMusica */ = {
+			isa = PBXGroup;
+			children = (
+				A991AF511CC320B200E23C2A /* musica */,
+				A991AF0F1CC31F2100E23C2A /* AppDelegate.swift */,
+				A991AF521CC344E200E23C2A /* FirstViewController.swift */,
+				A991AF111CC31F2100E23C2A /* ViewController.swift */,
+				A991AF131CC31F2100E23C2A /* Main.storyboard */,
+				A991AF161CC31F2100E23C2A /* Assets.xcassets */,
+				A991AF181CC31F2100E23C2A /* LaunchScreen.storyboard */,
+				A991AF1B1CC31F2100E23C2A /* Info.plist */,
+			);
+			path = ReproductorMusica;
+			sourceTree = "<group>";
+		};
+		A991AF231CC31F2100E23C2A /* ReproductorMusicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A991AF241CC31F2100E23C2A /* ReproductorMusicaTests.swift */,
+				A991AF261CC31F2100E23C2A /* Info.plist */,
+			);
+			path = ReproductorMusicaTests;
+			sourceTree = "<group>";
+		};
+		A991AF2E1CC31F2100E23C2A /* ReproductorMusicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A991AF2F1CC31F2100E23C2A /* ReproductorMusicaUITests.swift */,
+				A991AF311CC31F2100E23C2A /* Info.plist */,
+			);
+			path = ReproductorMusicaUITests;
+			sourceTree = "<group>";
+		};
+		A991AF511CC320B200E23C2A /* musica */ = {
+			isa = PBXGroup;
+			children = (
+				A991AF3D1CC31FD200E23C2A /* Abracadabra.mp3 */,
+				A991AF3F1CC31FE400E23C2A /* Czardas.mp3 */,
+				A991AF411CC31FFB00E23C2A /* I Don't Want To Spoil The Party.mp3 */,
+				A991AF431CC3201000E23C2A /* My Sweet Lord.mp3 */,
+				A991AF451CC3202B00E23C2A /* Something stupid.mp3 */,
+				A991AF471CC3203C00E23C2A /* Abracadabra.jpg */,
+				A991AF491CC3204D00E23C2A /* BeatlesForSale_1.jpg */,
+				A991AF4B1CC3206600E23C2A /* Czardas.Portada.jpg */,
+				A991AF4D1CC3208100E23C2A /* Frank&Nancy.jpg */,
+				A991AF4F1CC3209600E23C2A /* My_Sweet_Lord.jpg */,
+			);
+			name = musica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A991AF0B1CC31F2100E23C2A /* ReproductorMusica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A991AF341CC31F2100E23C2A /* Build configuration list for PBXNativeTarget "ReproductorMusica" */;
+			buildPhases = (
+				A991AF081CC31F2100E23C2A /* Sources */,
+				A991AF091CC31F2100E23C2A /* Frameworks */,
+				A991AF0A1CC31F2100E23C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReproductorMusica;
+			productName = ReproductorMusica;
+			productReference = A991AF0C1CC31F2100E23C2A /* ReproductorMusica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A991AF1F1CC31F2100E23C2A /* ReproductorMusicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A991AF371CC31F2100E23C2A /* Build configuration list for PBXNativeTarget "ReproductorMusicaTests" */;
+			buildPhases = (
+				A991AF1C1CC31F2100E23C2A /* Sources */,
+				A991AF1D1CC31F2100E23C2A /* Frameworks */,
+				A991AF1E1CC31F2100E23C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A991AF221CC31F2100E23C2A /* PBXTargetDependency */,
+			);
+			name = ReproductorMusicaTests;
+			productName = ReproductorMusicaTests;
+			productReference = A991AF201CC31F2100E23C2A /* ReproductorMusicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A991AF2A1CC31F2100E23C2A /* ReproductorMusicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A991AF3A1CC31F2100E23C2A /* Build configuration list for PBXNativeTarget "ReproductorMusicaUITests" */;
+			buildPhases = (
+				A991AF271CC31F2100E23C2A /* Sources */,
+				A991AF281CC31F2100E23C2A /* Frameworks */,
+				A991AF291CC31F2100E23C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A991AF2D1CC31F2100E23C2A /* PBXTargetDependency */,
+			);
+			name = ReproductorMusicaUITests;
+			productName = ReproductorMusicaUITests;
+			productReference = A991AF2B1CC31F2100E23C2A /* ReproductorMusicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A991AF041CC31F2100E23C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adrian Camacho Soriano acaso";
+				TargetAttributes = {
+					A991AF0B1CC31F2100E23C2A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A991AF1F1CC31F2100E23C2A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A991AF0B1CC31F2100E23C2A;
+					};
+					A991AF2A1CC31F2100E23C2A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A991AF0B1CC31F2100E23C2A;
+					};
+				};
+			};
+			buildConfigurationList = A991AF071CC31F2100E23C2A /* Build configuration list for PBXProject "ReproductorMusica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A991AF031CC31F2100E23C2A;
+			productRefGroup = A991AF0D1CC31F2100E23C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A991AF0B1CC31F2100E23C2A /* ReproductorMusica */,
+				A991AF1F1CC31F2100E23C2A /* ReproductorMusicaTests */,
+				A991AF2A1CC31F2100E23C2A /* ReproductorMusicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A991AF0A1CC31F2100E23C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991AF401CC31FE400E23C2A /* Czardas.mp3 in Resources */,
+				A991AF461CC3202B00E23C2A /* Something stupid.mp3 in Resources */,
+				A991AF481CC3203C00E23C2A /* Abracadabra.jpg in Resources */,
+				A991AF4E1CC3208100E23C2A /* Frank&Nancy.jpg in Resources */,
+				A991AF441CC3201000E23C2A /* My Sweet Lord.mp3 in Resources */,
+				A991AF421CC31FFB00E23C2A /* I Don't Want To Spoil The Party.mp3 in Resources */,
+				A991AF501CC3209600E23C2A /* My_Sweet_Lord.jpg in Resources */,
+				A991AF1A1CC31F2100E23C2A /* LaunchScreen.storyboard in Resources */,
+				A991AF4C1CC3206600E23C2A /* Czardas.Portada.jpg in Resources */,
+				A991AF3E1CC31FD200E23C2A /* Abracadabra.mp3 in Resources */,
+				A991AF4A1CC3204D00E23C2A /* BeatlesForSale_1.jpg in Resources */,
+				A991AF171CC31F2100E23C2A /* Assets.xcassets in Resources */,
+				A991AF151CC31F2100E23C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A991AF1E1CC31F2100E23C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A991AF291CC31F2100E23C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A991AF081CC31F2100E23C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991AF531CC344E200E23C2A /* FirstViewController.swift in Sources */,
+				A991AF121CC31F2100E23C2A /* ViewController.swift in Sources */,
+				A991AF101CC31F2100E23C2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A991AF1C1CC31F2100E23C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991AF251CC31F2100E23C2A /* ReproductorMusicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A991AF271CC31F2100E23C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991AF301CC31F2100E23C2A /* ReproductorMusicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A991AF221CC31F2100E23C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A991AF0B1CC31F2100E23C2A /* ReproductorMusica */;
+			targetProxy = A991AF211CC31F2100E23C2A /* PBXContainerItemProxy */;
+		};
+		A991AF2D1CC31F2100E23C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A991AF0B1CC31F2100E23C2A /* ReproductorMusica */;
+			targetProxy = A991AF2C1CC31F2100E23C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A991AF131CC31F2100E23C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A991AF141CC31F2100E23C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A991AF181CC31F2100E23C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A991AF191CC31F2100E23C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A991AF321CC31F2100E23C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A991AF331CC31F2100E23C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A991AF351CC31F2100E23C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A991AF361CC31F2100E23C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A991AF381CC31F2100E23C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReproductorMusicaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.ReproductorMusicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReproductorMusica.app/ReproductorMusica";
+			};
+			name = Debug;
+		};
+		A991AF391CC31F2100E23C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReproductorMusicaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.ReproductorMusicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReproductorMusica.app/ReproductorMusica";
+			};
+			name = Release;
+		};
+		A991AF3B1CC31F2100E23C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReproductorMusicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.ReproductorMusicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReproductorMusica;
+			};
+			name = Debug;
+		};
+		A991AF3C1CC31F2100E23C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReproductorMusicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.ReproductorMusicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReproductorMusica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A991AF071CC31F2100E23C2A /* Build configuration list for PBXProject "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A991AF321CC31F2100E23C2A /* Debug */,
+				A991AF331CC31F2100E23C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A991AF341CC31F2100E23C2A /* Build configuration list for PBXNativeTarget "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A991AF351CC31F2100E23C2A /* Debug */,
+				A991AF361CC31F2100E23C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A991AF371CC31F2100E23C2A /* Build configuration list for PBXNativeTarget "ReproductorMusicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A991AF381CC31F2100E23C2A /* Debug */,
+				A991AF391CC31F2100E23C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A991AF3A1CC31F2100E23C2A /* Build configuration list for PBXNativeTarget "ReproductorMusicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A991AF3B1CC31F2100E23C2A /* Debug */,
+				A991AF3C1CC31F2100E23C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A991AF041CC31F2100E23C2A /* Project object */;
+}
